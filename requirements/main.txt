@@ -4,7 +4,6 @@
 #
 #    pip-compile --output-file requirements/main.txt requirements/main.in
 #
-
 alabaster==0.7.12         # via sphinx
 babel==2.6.0              # via sphinx
 certifi==2018.11.29       # via requests
@@ -29,5 +28,5 @@ six==1.12.0               # via packaging, sphinx
 snowballstemmer==1.2.1    # via sphinx
 sphinx==1.8.4
 sphinxcontrib-websupport==1.1.0  # via sphinx
-urllib3==1.24.1           # via requests
+urllib3==1.24.2           # via requests
 wheel==0.33.1
